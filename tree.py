@@ -2,7 +2,7 @@ from binarytree import *
 values_1 = [20,16,24,15,22,10,21,None,23,18,None,25]
 values_ = [20,16,24,15,22,10,21,23]
 values = [20, 16, 24, 12, 18, 22, 28, 8, 16, None, None, 21, 24, 26, None]
-root = build(values)
+root = build(values) #or values_ or values_1
 
 def height(root):  
     if root is None: 
